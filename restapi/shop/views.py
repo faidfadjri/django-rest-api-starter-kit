@@ -5,7 +5,7 @@ def index(request):
     context = {
         'title': 'Welcome to the Shop!',
     }
-    return render(request, 'shop/index.html', context)
+    return render(request, 'index.html', context)
 
 def json(request):
     data = {
