@@ -6,14 +6,13 @@ git-commit:
 	@read -p "Commit message: " commit; \
 	git commit -m "$$commit";
 
-git-push:
-	@read -p "Branch name: " branch; \
-	git push -u origin "$$branch";
+git-push-main:
+	git push -u origin main
 
-push:
+deploy:
 	@$(MAKE) git-add
 	@$(MAKE) git-commit
-	@$(MAKE) git-push branch="main"
+	@$(MAKE) git-push-main
 
 # Django Command Line shortcut
 
