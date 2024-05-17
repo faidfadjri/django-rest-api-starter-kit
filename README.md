@@ -40,7 +40,7 @@ Run Application
 #### 📢 Basic
 
 > The **first parent folder** called `restapi` is your **_project name_** <br>
-> All configuration is handled by this file called **`settings.py`** <br> **`__init__.py`** is a file for telling the python that folder is a module
+> All configuration is handled by this file called **`settings.py`** <br> **`__init__.py`** is a file for telling the python that the folder is a module
 
 - [Database Configuration](#database-configuration)
 - [Debugging](#debugging)
