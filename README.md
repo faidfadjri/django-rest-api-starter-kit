@@ -1,4 +1,4 @@
-# Django Rest API Starter kit Templates
+# Django Rest API Starter Kit
 
 Django is the web framework for python language. It use the MVT architecture or you can say Models-Views-Templates
 
