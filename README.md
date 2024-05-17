@@ -10,7 +10,7 @@ In **Python Virtual Environment** it using the **requirements.txt** to save the 
 
 ## Getting Started
 
-Create a virtual environment ( isolate the dependency for each project ) think like package.json on node js
+Create a virtual environment ( isolate the dependency for each project ) think like `package.json `on `Node JS`
 
 ```bash
     # creating new virtual environment
@@ -35,9 +35,12 @@ Run Application
 
 ## 📔 Learn More
 
-### Configuration
+### 🕴️ Configuration
 
-All django configuration is handled by this file called `settings.py`
+#### 📢 Basic
+
+> The **first parent folder** called `restapi` is your _project name_ <br>
+> All configuration is handled by this file called `settings.py` <br> `__init__.py` is a file for telling the python that folder is a module
 
 - [Database Configuration](#database-configuration)
 - [Debugging](#debugging)
